@@ -1,0 +1,28 @@
+{
+  "name": "WebAppBuilder Extender",
+  "version": "1.0",
+  "description": "WebAppBuilder Extender extends WebAppBuilder beyond it's current capabilities with an easy to use interface multiplatform interface",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "options_page": "extension/options/options.html",
+  "page_action": {
+    "default_popup": "extension/popup/popup.html",
+    "default_icon": {
+      "16": "resources/images/icons/globe_icon16.png",
+      "32": "resources/images/icons/globe_icon32.png",
+      "48": "resources/images/icons/globe_icon48.png",
+      "128": "resources/images/icons/globe_icon128.png"
+    }
+  },
+  "icons": {
+    "16": "resources/images/icons/globe_icon16.png",
+    "32": "resources/images/icons/globe_icon32.png",
+    "48": "resources/images/icons/globe_icon48.png",
+    "128": "resources/images/icons/globe_icon128.png"
+  },
+  "permissions": ["activeTab", "storage", "declarativeContent"],
+  "manifest_version": 2
+
+}

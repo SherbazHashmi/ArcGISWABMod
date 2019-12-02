@@ -1,0 +1,29 @@
+button {
+  height: 30px;
+  width: 30px;
+  outline: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #1098f7;
+  padding: 0px 10px;
+  
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+h3 {
+  text-align: left;
+}
